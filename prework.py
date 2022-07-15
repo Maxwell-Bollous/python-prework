@@ -45,10 +45,7 @@ max_num_in_list(numbers)
 
 def is_leap_year(a_year):
     """Display whether a given year is a leap year"""
-    if a_year % 4 == 0:
-        print(True)
-    else:
-        print(False)
+    return print(a_year % 4 == 0)
 
 is_leap_year(2000)
 
